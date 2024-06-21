@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(240deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(217deg, rgba(255, 255, 0, 0.8), rgba(255,0,0,0) 30.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 30.71%),
+    linear-gradient(156deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    color: white;
+    padding: 1em 0;
+    justify-content: center;
+    font-family: 'Segoe UI';
+}
+
+header img{
+    padding-right: 5px;
+}
+
+
+#banner{
+    background-color: #0078d4;
+    text-align: center;
+}
+
+#banner h1, #banner h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+#banner a{
+    font-family: 'Segoe UI Semibold', 'wf_segoe-ui_semibold', 'wf_segoe-ui_normal', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
+    font-size: 14pt;
+    line-height: 19px;
+    text-align: center;
+    min-height: 32px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-color: #fff;
+    border-style: solid;
+    border-width: thin;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 8px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+article {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+aside img {
+    margin-bottom: 10px;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
